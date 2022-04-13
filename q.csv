@@ -1,0 +1,57 @@
+ques,topic
+"According to the Venn diagram below, how many students have enrolled in art class?",sets
+"Which of the following sets is equivalent to set A = {Monday, Tuesday, Wednesday, Thursday}?",sets
+"Let A = {2, 4, 6, 8} and B = (1, 2, 3, 4}. Find: A ? B",sets
+"Let A = {a, b, c, d} and B = (b, c, d, f, g, h}. Find: A ? B.",sets
+"Let for any matrix M ,M-1 exist. Which of the following is not true.",matrix
+Sum of two skew-symmetric matrices is always,matrix
+the no. of all possible matrics of order 3 ×× 3 with each entry as 0 or 1 is,matrix
+"If A is a square matrix, such that A2 = A, then (I + A)3 – 7A is equal to",matrix
+Five cards are drawn successively with replacement from a well – shuffled deck of 52 cards. What is the probability that only 3 cards are spades?,probability
+"In answering a question on a multiple choice test, a student either knows the answer or guesses. Let 3434 be the probability that he knows the answer and 1414 be the probability that he guesses. Assuming that a student who guesses at the answer will be correct with probability 1414. What is the probability that the student knows the answer given that he answered it correctly?",probability
+"An insurance company insured 2000 scooter drivers, 4000 car drivers and 6000 truck drivers. The probability of an accidents are 0.01, 0.03 and 0.15 respectively. One of the insured persons meets with an accident. What is the probability that he is a scooter driver",probability
+"In a box containing 100 bulbs, 10 are defective. The probability that out of a sample of 5 bulbs, none is defective is",probability
+"The complex number 2 + 4i is one of the root to the quadratic equation x2 + bx + c = 0, where b and c are real numbers",complex
+Find all complex numbers z such that z2 = -1 + 2 sqrt(6) i,complex
+"Find all complex numbers z such that (4 + 2i)z + (8 - 2i)z' = -2 + 10i, where z' is the complex conjugate of z.",complex
+Given that the complex number z = -2 + 7i is a root to the equation: z3 + 6 z2 + 61 z + 106 = 0 ,complex
+ Write the solution set of the equation x2 – 4=0 in roster form.,sets
+"Write the set A = {1, 4, 9, 16, 25, . . . } in set-builder form.",sets
+Write an example of a finite and infinite set in set builder form.,sets
+Write an example of equal sets.,sets
+"Write the subsets of {1,2,3}.",sets
+"Write {x: x ? R, 3 ? x ? 4} as intervals.",sets
+"Write the interval (6, 12) in set builder form.",sets
+"If set A = {1, 3, 5}, B = {2, 4, 6} and C = {0, 2, 4, 6, 8}. Then write the universal set for all three sets.",sets
+"If A = { 2, 4, 6, 8} and B = { 6, 8, 10, 12}. Find A ? B.",sets
+"If A = { 2, 4, 6, 8} and B = { 6, 8, 10, 12}. Find A ? B.",sets
+Tickets numbered 1 to 20 are mixed up and then a ticket is drawn at random. What is the probability that the ticket drawn has a number which is a multiple of 3 or 5?,probability
+A bag contains 6 white and 4 black balls .2 balls are drawn at random. Find the probability that they are of same colour.,probability
+"A bag contains 4 white, 5 red and 6 blue balls. Three balls are drawn at random from the bag. The probability that all of them are red, is:",probability
+Two cards are drawn at random from a pack of 52 cards.what is the probability that either both are black or both are queen?,probability
+"In a lottery, there are 10 prizes and 25 blanks. A lottery is drawn at random. What is the probability of getting a prize?",probability
+Two dice are tossed. The probability that the total score is a prime number is:,probability
+A man and his wife appear in an interview for two vacancies in the same post. The probability of husband's selection is (1/7) and the probability of wife's selection is (1/5). What is the probability that only one of them is selected ?,probability
+Three unbiased coins are tossed.What is the probability of getting at least 2 heads?,probability
+"In a class, there are 15 boys and 10 girls. Three students are selected at random. The probability that 1 girl and 2 boys are selected, is:",probability
+Two dice are thrown together .What is the probability that the sum of the number on the two faces is divided by 4 or 6.,probability
+ Find the radius of the circle in which a central angle of 60° intercepts an arc of length 37.4 cm (use ? = 22/7).,trigonometry
+A wheel makes 360 revolutions in one minute. Through how many radians does it turn in one second?,trigonometry
+: Find the value of ?3 cosec 20° – sec 20°.,trigonometry
+ Show that tan 3x tan 2x tan x = tan 3x – tan 2x – tan x,trigonometry
+ Find the value of cos 570° sin 510° + sin (-330°) cos (-390°).,trigonometry
+Show that 2 sin2? + 4 cos (? + ?) sin ? sin ? + cos 2 (? + ?) = cos 2?.,trigonometry
+Find the value of  tan(15?)tan?(15?)  ,trigonometry
+If  sinA=35sin?A=35  and  ?2<A<?2<A<  find cosAcos?A  ,trigonometry
+If  tanA=aa+1tan?A=aa+1  and  tanB=12a+1tan?B=12a+1  then find the value of  A+BA+B  ,trigonometry
+Express  sin12?+sin4?sin?12?+sin?4?  as the product of sines and cosine,trigonometry
+Express (1+i1?i)3(1+i1?i)3 in the form A + iB where A and B are real numbers.,complex
+Find the modulus of the complex quantity (2 - 3i)(-1 + 7i).,complex
+Find the modulus and principal amplitude of -4.,complex
+Find the amplitude and modulus of the complex number -2 + 2?3i.,complex
+ Find the multiplicative inverse of the complex number z = 4 - 5i.,complex
+" Suppose z1, z2, z3 are the vertices of an equilateral triangle inscribed in the circle |z| = 2. If z1 = 1 + i?3, then find the values of z3 and z2.",complex
+If cos? + cos ? + cos ? = sin ? + sin ? + sin ? = 0 then what is the value of cos 3? + cos 3? + cos 3??,complex
+" If the cube roots of unity are 1, ?, ?2, then find the roots of the equation (x ? 1)3 + 8 = 0.",complex
+" Let z1 and z2 be nth roots of unity, which are ends of a line segment that subtend a right angle at the origin. Then n must be of the form ____________.",complex
+(cos ? + i sin ?)4 / (sin ? + i cos ?)5 is equal to ____________.,complex

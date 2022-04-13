@@ -1,0 +1,122 @@
+import pandas as pd
+
+import numpy as np
+
+df=pd.read_csv("q.csv",encoding='latin1')
+
+df.head()
+
+x=df.iloc[:,1]
+
+df.iloc[:,-1]
+
+df.replace({'sets':1,'matrix':2,'probability':3,'complex':4,'trigonometry':5})
+
+from sklearn.model_selection import train_test_split
+
+x_train,x_test,y_train,y_test=train_test_split(df.ques,df.topic,test_size=0.25)
+
+from sklearn.feature_extraction.text import CountVectorizer
+
+v=CountVectorizer()
+
+x_train_count=v.fit_transform(x_train.values)
+
+x_train_count.toarray()[:]
+
+from sklearn.naive_bayes import MultinomialNB
+
+model=MultinomialNB()
+
+model.fit(x_train_count,y_train)
+
+x_test_count=v.transform(x_test  )
+
+a=['find the all subset of set A={1,2,3,4}',
+
+   'find the real part of 2+3i',
+
+   'find the probability of diamond in a spade of cards',
+
+   'Which of the following sets is equivalent to set A = {Monday, Tuesday, Wednesday, Thursday}?',
+
+   'Five cards are drawn successively with replacement from a well – shuffled deck of 52 cards. What is the probability that only 3 cards are spades?',
+
+   'Write the set A = {1, 4, 9, 16, 25, . . . } in set-builder form.',
+
+   'Find the radius of the circle in which a central angle of 60° intercepts an arc of length 37.4 cm (use ? = 22/7).',
+
+   'Let for any matrix M ,M-1 exist. Which of the following is not true.',
+
+   ' Find the value of cos 570° sin 510° + sin (-330°) cos (-390°).']
+
+k=v.transform(a)
+
+r=model.predict(k).tolist()
+
+s=r
+
+j=0;
+
+for i in r:
+
+    if i=='sets':
+
+        s[j]=1
+
+    elif i=='matrix':
+
+        s[j]=2
+
+    elif i=='probability':
+
+        s[j]=3
+
+    elif i=='complex':
+
+        s[j]=4
+
+    elif i=='trigonometry':
+
+        s[j]=5
+
+    j=j+1;  
+
+chap=[1,2,3,4,5]
+
+j=0
+
+for i in chap:
+
+    
+
+    chap[j]=s.count(i)
+
+    j=j+1
+
+model.score(x_test_count,y_test)
+
+sum=0
+
+for i in chap :
+
+    sum+=i
+
+p=0
+
+for i in chap :
+
+    
+
+    chap[p]=(i/sum)*100
+
+    p=p+1
+
+topic={1:'sets',2:'matrix',3:'probability',4:'complex',5:'trigonometry'}
+
+print('CHAPTER   WEIGHTAGE(%)  ')
+
+for i in range(1,6):
+
+    print(topic[i],'\t',chap[i-1])
+

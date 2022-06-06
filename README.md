@@ -1,5 +1,5 @@
 # Machine-Learning-project-Question-weightage-calculator-
-## ML Based project to classifity the set of input questions and give weightage of chapter from which the question come.
+## ML Based project to classify the set of input questions and return weightage of chapter from which the question were input.
 ## Designed a model which take inputs Mathematics questions on selected topic and outputs the weightage of each topic .
 
 Ex:

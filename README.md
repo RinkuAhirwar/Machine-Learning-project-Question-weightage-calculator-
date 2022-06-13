@@ -1,6 +1,8 @@
 # Machine-Learning-project-Question-weightage-calculator-
-## ML Based project to classify the set of input questions and return weightage of chapter from which the question were input.
-## Designed a model which take inputs Mathematics questions on selected topic and outputs the weightage of each topic .
+
+## _ML Based project to classify the set of input questions and return weightage of chapter from which the question were input._
+
+## _Designed a model which take inputs Mathematics questions on selected topic and outputs the weightage of each topic ._
 
 Ex:
 
@@ -37,4 +39,11 @@ Probability           50
 Sets                     25
 
 Complex number 25
-
+# More about Model
+* Model is prepared using __Naive Bayes Classifier__
+* Libraries used
+      
+      * pandas
+      * numpy
+      * sklearn
+* CounterVectorizer is used in order to convert the question into number 
